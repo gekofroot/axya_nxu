@@ -54,14 +54,14 @@ ul {
   margin: 0 auto;
   padding: 1em;
   margin-top: 135px;
-  width: 60%;,
-  box-shadow: rgb(255 255 255 / 60%) 0px 2px 60px 20px;
+  width: 62%;,
+  box-shadow: rgb(255 250 255 / 60%) 0px 2px 60px 20px;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   transition: 1px 53s ease-in;
   justify-content: center;
   text-align: center;
-  border-radius: 30px;
+  border-radius: 20px;
   height: 480px;
   overflow: auto;
   margin: 0;

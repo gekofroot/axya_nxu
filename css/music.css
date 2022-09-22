@@ -2652,7 +2652,7 @@ ul > li:hover {
 
 ul > li > a:hover {
   background-color: #fff;
-  box-shadow: rgb(240 220 255 / 100%) 0px 0px 40px 2px;
+  box-shadow: rgb(240 220 255 / 90%) 0px 0px 20px 2px;
   transition: .10s ease-out;
   z-index: 1;
   padding: 1.4em;

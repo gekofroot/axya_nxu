@@ -60,7 +60,6 @@ main {
   margin: 0 auto;
   padding: 2em 3em;
   padding: 15px 5px;
-  /*margin-top: 135px;*/
   width: 72%;
   height: 80%;
   box-shadow: rgb(255 250 255 / 60%) 0px 2px 60px 20px;
@@ -88,7 +87,7 @@ ul {
   margin: 0 auto;
   padding: 2em 3em;
   margin-top: 135px;
-  width: 65%;,
+  width: 90%;,
   box-shadow: rgb(255 250 255 / 60%) 0px 2px 60px 20px;
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);

@@ -27,7 +27,7 @@ body {
 }
 
 #veil {
-  background-image: linear-gradient(rgba(120, 0, 240, 10), rgba(255, 255, 255, 100));
+  background-image: linear-gradient(rgba(200, 200, 200, 1), rgba(255, 255, 255, 10));
   position: absolute;
   left: 0;
   top: 0;

@@ -54,7 +54,7 @@ main {
 
 #list-container {
   color: rgb(255 255 255);
-  background-color: rgb(255 255 255 / 80%);
+  background-color: rgb(255 0 255 / 80%);
   box-sizing: border-box;
   list-style: none;
   margin: 0 auto;

@@ -5,72 +5,163 @@
 }
 
 body, html {
-  margin: 10px;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px;
   padding: 0;
   color: #fff;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  cursor: none;
+  /*border: 10px solid #44ffaa;*/
 }
 
 body {
   cursor: none;
   background: url("./../images/laura-adai-som-8ENiioY-unsplash.jpg") no-repeat center center fixed;
+  background: url("./../images/photos/rajesh-kavasseri-hrHsSoY4lWY-unsplash.jpg") no-repeat center top fixed;
+  border: 2px solid rgb(0 100 200 / 20%);
+  border: 6px solid rgb(0 0 0 / 100%);
   background-size: cover;
 }
 
+/* applies highlight layer to viewport within html body */
 #guav {
   background-color: #ffffff22;
-  z-index: 0;
-  position: absolute;
+  z-index: -2;
+  position: fixed;
   left: 0%;
   top: 0%;
   width: 100%;
   height: 100%;
+  /*background: linear-gradient(rgba(0 0 20 / 100%), #000000ff);*/
+  background: linear-gradient(rgba(0 0 10 / 100%), #000000ff);
+  background: linear-gradient(rgba(255 255 255 / 120%), #ffffffff);
+  background: linear-gradient(rgba(255 255 255 / 100%), #ddddffff);
+  cursor: none;
 }
 
+/*applies another highlight layer to viewport within html body*/
 #veil {
-  background-image: linear-gradient(rgba(255 255 255 / 0%), rgba(255 255 255 / 100%));
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-#vanta {
+  box-sizing: border-box;
   opacity: 0.1;
+  opacity: 1;
   z-index: 0;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+  background: linear-gradient(#200020, #00000044);
+  background: linear-gradient(#6666aabb, #ffffffff, #ffffffee);
+  background: linear-gradient(#6666aabb, #ffffffff, #ffffffff);
+  border: 2px solid #eeeeff;
+  cursor: none;
+}
+
+
+#vanta {
+  opacity: 0.1;
+  opacity: 0.1;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: none;
+}
+
+/* provides container for list items */
+.ul-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 60%;
+  width: 98%;
+  height: 96%;
+  background: linear-gradient(#ffffff, #ff00ff66);
+  background: linear-gradient(#000000, #000000ee);
+  background: linear-gradient(#00000000, #000000ff 60%);
+  background: linear-gradient(#00ff0000, #000016ff, #000000ff 60%);
+  background: linear-gradient(#00000000, #00000000, #000018ff 60%);
+  background: linear-gradient(#ddddffff, #ffffffff 60%);
+  box-shadow: rgb(0 0 0 / 100%) 0px 0px 180px 20px inset;
+  box-shadow: rgb(0 0 0 / 100%) 0px 0px 180px 40px;
+  box-shadow: rgb(200 200 255 / 100%) 0px 0px 20px 6px;
+  border-radius: 20px 0px 20px 0px;
+  border-radius: 0px 0px 0px 0px;
+  border: 1px groove rgb(0 10 40);
+  border: 1px groove rgb(200 200 250);
+  cursor: none;
+  background: url("./../images/photos/john-towner-JgOeRuGD_Y4-unsplash.jpg") no-repeat center center fixed;
+  background: url("./../images/photos/paintings/1666721336072263.jpg") no-repeat center center fixed;
+  background: url("./../images/photos/dual/1666461674605895.jpg") no-repeat center center fixed;
+  /*background: url("./../images/photos/vista_abstract/1668456892835751.jpg") no-repeat center center fixed;*/
 }
 
 ul {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
   background-color: #00000000;
   opacity: 0.98;
+  opacity: 1;
   box-sizing: border-box;
   list-style: none;
   margin: 0 auto;
-  padding: 0em;
-  margin-top: 220px;
-  max-width: 90px;
+  padding: 6em;
+  height: 40px;
+  max-width: 180px;
   box-shadow: rgb(255 255 255 / 70%) 0px 2px 90px 60px;
-  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-  transition: 1px 53s ease-in;
+  box-shadow: rgb(255 255 255 / 70%) 0px 2px 4px 1px;
+  box-shadow: rgb(50 0 180 / 100%) 0px 0px 4px 1px;
+  box-shadow: rgb(80 0 240 / 100%) 0px 0px 4px 1px;
+  box-shadow: rgb(0 0 80 / 100%) 0px 0px 4px 1px;
+  box-shadow: rgb(0 0 80 / 0%) 0px 0px 4px 1px;
+  /*box-shadow: linear-gradient(#0000ff, #00ffff) 0px 0px 40px 10px;*/
+  border-radius: 20px 20px 0px 20px;
+  background: #eef;
+  background: linear-gradient(#fff, #eefa);
   justify-content: center;
+  align-items: center;
+  transition: 1px 53s ease-in;
+  /* misc items
+  backgdrop-filter: blur(10px) saturate(160%) contrast(180%);
+  -webkit-background-filter: blur(10px) saturate(160%) contrast(180%);
+  */
+  cursor: none;
 }
 
 ul > li {
   opacity: 1;
   background-color: #fff;
-  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-  -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   padding: 1em;
   margin: 1.4em 0;
   justify-content: center;
-  border-radius: 20px;
+  align-items: center;
+  z-index: 1;
+  /*
+  justify-content: center;
+  align-items: center;
+  background: #ff00ff;
+  
+  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+  -webkit-backgrop-filter: blur(10px) saturate(160%) contrast(180%);*/
+  cursor: none;
 }
+
+/*
+.curvature img {
+  background: #00ff00;
+  border-radius: 100px;
+}
+*/
 
 ul > li > a {
   display: flex;
@@ -84,11 +175,14 @@ ul > li > a {
   justify-content: center;
   transition: 1.s ease-out;
   box-shadow: rgb(220 220 220 / 70%) 0px 2px 4px 1px;
+  box-shadow: rgb(0 0 180 / 70%) 0px 0px 4px 1px;
   opacity: 6;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 100px;
+  border-radius: 0px;
+  /*position: absolute;*/
+  cursor: none;
 }
-
 
 /* I */
 #cell {
@@ -827,7 +921,6 @@ ul > li > a {
 }
 
 
-
 /* VII */
 #cell_g {
   background-color: #ffff00;
@@ -1554,6 +1647,7 @@ ul > li > a {
   height: 8.3%;
 }
 
+
 #cell_XII_l {
   background-color: #00ff00;
   opacity: 0;
@@ -1566,1068 +1660,1369 @@ ul > li > a {
 
 /* I hover */
 #cell:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* II hover */
 #cell_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_b:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* III hover */
 #cell_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_c:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* IV hover */
 #cell_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_d:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* V hover */
 #cell_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_e:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* VI hover */
 #cell_f:hover {
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  background-color: #ffffff;
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_f:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* VII hover */
 #cell_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_g:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* VIII hover */
 #cell_h:hover {
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  background-color: #ffffff;
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_h:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* IX hover */
 #cell_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_i:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* X hover */
 #cell_j:hover {
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  background-color: #ffffff;
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_j:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* XI hover */
 #cell_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_III_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IV_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_V_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VI_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VII_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_IX_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_X_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XI_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_XII_k:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 
 
 /* XII hover */
 #cell_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 4px 2px;
+  border-radius: 0px;  
 }
 
 #cell_II_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_III_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_IV_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_V_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_VI_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_VII_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_VIII_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_IX_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_X_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_XI_l:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  box-shadow: rgb(100 100 200 / 100%) 0px 0px 20px 6px;
+  border-radius: 0px;  
 }
 
 #cell_XII_l:hover {
-  background-color: #ffffff;
+  background-color: #00000000;
   opacity: 0.8;
+  opacity: 1;
   transition: 1.s ease-out;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 60px 40px;  
+  border-radius: 0px;
+  box-shadow: rgb(0 0 80 / 100%) 0px 0px 10px 2px;  
 }
 
 ul:hover {
+  box-sizing: border-box;
   background-color: #fff;
-  box-shadow: rgb(255 255 255 / 100%) 0px 2px 90px 20px;
+  box-shadow: rgb(0 0 100 / 100%) 0px 2px 10px 2px;
+  box-shadow: rgb(0 0 0 / 100%) 0px 0px 2px 1px;
+  box-shadow: rgb(200 200 255 / 100%) 0px 0px 2px 1px;
   transition: .20s ease-out;
   transition: 1.s ease-out;
   justify-content: center;
+  background: #ffffff;
+  background: #000022;
+  border-radius: 10px 0px 10px 0px;
+  background: linear-gradient(#000000, #000022);
+  background: #fff;
 }
 
 ul > li:hover {
-  background-color: #fff;
   box-shadow: rgb(150 150 150 / 100%) 0px 2px 10px 0px;
   transition: 1.s ease-out;
   justify-content: center;
 }
 
 ul > li > a:hover {
+  background-color: #000000;
   background-color: #fff;
   box-shadow: rgb(235 235 235 / 100%) 0px 0px 10px 4px;
+  box-shadow: rgb(235 235 235 / 100%) 0px 0px 2px 1px;
   transition: .10s ease-out;
   z-index: 1;
   padding: 1.4em;
   margin: -1.4em;
   transition: 1.s ease-out;
   justify-content: center;
+  cursor: none;
 }

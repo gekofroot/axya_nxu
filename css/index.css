@@ -54,7 +54,7 @@ body {
 .water {
   box-sizing: border-box;
   position: absolute;
-  background: url("./../images/photos/clement-m-0vOoWtDiKXY-unsplash.jpg") no-repeat center top fixed;
+  background: url("./../images/clement-m-0vOoWtDiKXY-unsplash.jpg") no-repeat center top fixed;
   border: 6px solid rgb(0 0 0 / 100%);
   background-size: cover;
   z-index: 0;

@@ -113,9 +113,6 @@ ul {
   align-items: center;
   transition: 1px 53s ease-in;
   cursor: none;
-  border-width: 8px;
-  border-style: solid;
-  border-image: linear-gradient(rgb(0, 0, 0), rgb(200, 200, 255)) 1;
 }
 
 ul > li {
@@ -3092,10 +3089,10 @@ ul > li > a {
 
 ul:hover {
   box-sizing: border-box;
-  transition: 1.s ease-out;
   justify-content: center;
   border-radius: 10px 0px 10px 0px;
-  background: #fff;
+  background: linear-gradient(#ffff, #ffff);
+  transition: 1.s ease-in-out;
 }
 
 ul > li:hover {
@@ -3110,13 +3107,12 @@ ul > li:hover {
 ul > li > a:hover {
   background-color: #fff;
   box-shadow: rgb(235 235 235 / 100%) 0px 0px 2px 1px;
-  transition: .10s ease-out;
   z-index: 1;
   padding: 1.4em;
   margin: -1.4em;
-  transition: 1.s ease-out;
   justify-content: center;
   cursor: auto;
+  transition: 1.s ease-out;
 }
 
 @media screen and (max-width: 900px) {
@@ -3131,6 +3127,58 @@ ul > li > a:hover {
     background: linear-gradient(#0002, #6061);
     box-shadow: rgb(0 0 0 / 0%) 0px 0px 120px 10px inset;
     border-radius: 20px 0px 0px 0px;
+  }
+  .ul-container {
+    box-shadow: rgb(200 200 255 / 0%) 0px 2px 10px 6px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    border: 6px solid rgb(0 0 0 / 100%);
+  }
+  .water {
+    filter: opacity(100%);
+    border-radius: 20px 0px 0px 0px;
+    top: 73%;
+    left: 1%;
+    width: 98%;
+    height: 26.5%;
+  }
+  .water-filter {
+    background: linear-gradient(#000f, #6061);
+    box-shadow: rgb(0 0 0 / 100%) 0px 0px 60px 60px inset;
+    border-radius: 20px 0px 0px 0px;
+    top: 73%;
+    left: 1%;
+    width: 98%;
+    height: 26.5%;
+  }
+  .ul-container {
+    box-shadow: rgb(200 200 255 / 0%) 0px 2px 10px 6px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  body {
+    border: 6px solid rgb(0 0 0 / 100%);
+  }
+  .water {
+    filter: opacity(100%);
+    border-radius: 20px 0px 0px 0px;
+    top: 65%;
+    left: 1%;
+    width: 98%;
+    height: 34%;
+  }
+  .water-filter {
+    background: linear-gradient(#000f, #6061);
+    box-shadow: rgb(0 0 0 / 100%) 0px 0px 100px 40px inset;
+    border-radius: 20px 0px 0px 0px;
+    top: 65%;
+    left: 1%;
+    width: 98%;
+    height: 34%;
   }
   .ul-container {
     box-shadow: rgb(200 200 255 / 0%) 0px 2px 10px 6px;

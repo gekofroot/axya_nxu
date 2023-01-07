@@ -3125,7 +3125,7 @@ ul > li > a:hover {
     border-radius: 20px 0px 0px 0px;
   }
   .water-filter {
-    background: linear-gradient(#0002, #6061);
+    background: linear-gradient(#000f, #6061);
     box-shadow: rgb(0 0 0 / 0%) 0px 0px 120px 10px inset;
     border-radius: 20px 0px 0px 0px;
   }

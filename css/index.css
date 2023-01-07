@@ -54,9 +54,9 @@ body {
 .water {
   box-sizing: border-box;
   position: absolute;
-  background: url("./../images/clement-m-0vOoWtDiKXY-unsplash.jpg") no-repeat center top fixed;
-  border: 6px solid rgb(0 0 0 / 100%);
+  background: url("./../images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
+  border: 6px solid rgb(0 0 0 / 100%);
   z-index: 0;
   top: 70%;
   left: 1%;
@@ -91,7 +91,8 @@ body {
   border-radius: 10px 10px 0px 0px;
   border: 1px groove rgb(200 200 250);
   cursor: none;
-  background: url("./../images/1666461674605895.jpg") no-repeat center center fixed;
+  background: url("./../images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 ul {

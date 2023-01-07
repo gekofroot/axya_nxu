@@ -18,11 +18,10 @@ body, html {
 #filter-container {
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgb(0 0 10 / 20%), rgb(0 0 0));
+  background: linear-gradient(rgb(0 0 10 / 20%), rgb(0 0 0 / 100%));
   position: absolute;
   z-index: -1;
 }
-
 
 body {
   box-sizing: border-box;
@@ -42,7 +41,6 @@ body {
   background-size: cover;
 }
 
-/* filter item */
 #guav {
   box-sizing: border-box;
   display: flex;
@@ -63,6 +61,7 @@ body {
   transition: 1px 53s ease-in;
   border-radius: 20px;
   overflow: auto;
+  cursor: none;
 }
 
 ul {
@@ -76,6 +75,7 @@ ul {
   text-align: center;
   border-radius: 20px;
   border: 2px solid rgb(200 200 255);
+  z-index: 1;
 }
 
 a {
@@ -86,6 +86,7 @@ a {
   padding: 4.4em 4em;
   gap: 0.5em;
   margin: -1.4em;
+  cursor: none;
 }
 
 ul > li {
@@ -94,12 +95,2548 @@ ul > li {
   background: #000;
 }
 
+.ul-top {
+  border-radius: 20px 20px 0 0;
+}
+
+.ul-bottom {
+}
+
+/* hover */
 a:hover {
-  text-align: left;
   color: rgb(200 200 255);
   color: #000;
 }
 
 ul > li:hover {
-	background: linear-gradient(90deg, #ccf, #aaaaff);
+  background: linear-gradient(90deg, #ccf, #aaaaff);
+  border: 2px solid #440044;
 }
+
+body {
+  cursor: none;
+}
+
+/* I */
+#cell {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* II */
+#cell_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_b {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 8.3%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* III */
+#cell_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_c {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 16.6%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* IV */
+#cell_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_d {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 24.9%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* V */
+#cell_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_e {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 33.2%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* VI */
+#cell_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_f {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 41.5%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* VII */
+#cell_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_g {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 49.8%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* VIII */
+#cell_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+#cell_VI_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_h {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 58%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* IX */
+#cell_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_i {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 66.3%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* X */
+#cell_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_j {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 74.6%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* XI */
+#cell_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_k {
+  background-color: #ffff00;
+  opacity: 0;
+  position: absolute;
+  left: 82.9%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* XII */
+#cell_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 0;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_II_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 8.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_III_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 16.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IV_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 24.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_V_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 33.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VI_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 41.5%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VII_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 49.8%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_VIII_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 58%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_IX_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 66.3%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_X_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 74.6%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XI_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 82.9%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+#cell_XII_l {
+  background-color: #00ff00;
+  opacity: 0;
+  position: absolute;
+  left: 91.2%;
+  top: 91.2%;
+  width: 8.3%;
+  height: 8.3%;
+}
+
+
+
+/* I hover */
+#cell:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* II hover */
+#cell_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_b:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* III hover */
+#cell_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_c:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* IV hover */
+#cell_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_d:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* V hover */
+#cell_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_e:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* VI hover */
+#cell_f:hover {
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_f:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* VII hover */
+#cell_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+#cell_VII_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_g:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* VIII hover */
+#cell_h:hover {
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_h:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* IX hover */
+#cell_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_i:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* X hover */
+#cell_j:hover {
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_j:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* XI hover */
+#cell_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_k:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+
+
+/* XII hover */
+#cell_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_II_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_III_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IV_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_V_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VI_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VII_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_VIII_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_IX_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_X_l:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XI_l:hover {
+  background-color: #ffffff;
+  opacity: 0.6;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+
+#cell_XII_l:hover {
+  background-color: #ffffff;
+  opacity: 0.6;
+  transition: 1.s ease-out;
+  box-shadow: rgb(180 180 255 / 100%) 0px 0px 2px 1px;
+}
+

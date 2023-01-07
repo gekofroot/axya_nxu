@@ -124,8 +124,8 @@ body {
   position: absolute;
   left: 0%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II {
@@ -133,9 +133,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 0;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III {
@@ -144,8 +144,8 @@ body {
   position: absolute;
   left: 0;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV {
@@ -154,8 +154,8 @@ body {
   position: absolute;
   left: 0;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V {
@@ -164,8 +164,8 @@ body {
   position: absolute;
   left: 0%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI {
@@ -174,8 +174,8 @@ body {
   position: absolute;
   left: 0;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII {
@@ -184,8 +184,8 @@ body {
   position: absolute;
   left: 0%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII {
@@ -194,8 +194,8 @@ body {
   position: absolute;
   left: 0;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX {
@@ -204,8 +204,8 @@ body {
   position: absolute;
   left: 0;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X {
@@ -214,8 +214,8 @@ body {
   position: absolute;
   left: 0;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI {
@@ -224,8 +224,8 @@ body {
   position: absolute;
   left: 0;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII {
@@ -234,8 +234,8 @@ body {
   position: absolute;
   left: 0;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -245,120 +245,120 @@ body {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  left: 8.8%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_b {
   background-color: #00ff00;
   opacity: 0;
   position: absolute;
-  left: 8.3%;
+  left: 8.8%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -370,8 +370,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_c {
@@ -379,9 +379,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 16.6%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_c {
@@ -390,8 +390,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_c {
@@ -400,8 +400,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_c {
@@ -410,8 +410,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_c {
@@ -420,8 +420,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_c {
@@ -430,8 +430,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_c {
@@ -440,8 +440,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_c {
@@ -450,8 +450,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_c {
@@ -460,8 +460,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_c {
@@ -470,8 +470,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_c {
@@ -480,8 +480,8 @@ body {
   position: absolute;
   left: 16.6%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -493,8 +493,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_d {
@@ -502,9 +502,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 24.9%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_d {
@@ -513,8 +513,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_d {
@@ -523,8 +523,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_d {
@@ -533,8 +533,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_d {
@@ -543,8 +543,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_d {
@@ -553,8 +553,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_d {
@@ -563,8 +563,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_d {
@@ -573,8 +573,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_d {
@@ -583,8 +583,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_d {
@@ -593,8 +593,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_d {
@@ -603,8 +603,8 @@ body {
   position: absolute;
   left: 24.9%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -616,8 +616,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_e {
@@ -625,9 +625,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 33.2%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_e {
@@ -636,8 +636,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_e {
@@ -646,8 +646,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_e {
@@ -656,8 +656,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_e {
@@ -666,8 +666,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_e {
@@ -676,8 +676,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_e {
@@ -686,8 +686,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_e {
@@ -696,8 +696,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_e {
@@ -706,8 +706,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_e {
@@ -716,8 +716,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_e {
@@ -726,8 +726,8 @@ body {
   position: absolute;
   left: 33.2%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -739,8 +739,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_f {
@@ -748,9 +748,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 41.5%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_f {
@@ -759,8 +759,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_f {
@@ -769,8 +769,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_f {
@@ -779,8 +779,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_f {
@@ -789,8 +789,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_f {
@@ -799,8 +799,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_f {
@@ -809,8 +809,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_f {
@@ -819,8 +819,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_f {
@@ -829,8 +829,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_f {
@@ -839,8 +839,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_f {
@@ -849,8 +849,8 @@ body {
   position: absolute;
   left: 41.5%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -862,8 +862,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_g {
@@ -871,9 +871,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 49.8%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_g {
@@ -882,8 +882,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_g {
@@ -892,8 +892,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_g {
@@ -902,8 +902,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_g {
@@ -912,8 +912,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_g {
@@ -922,8 +922,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_g {
@@ -932,8 +932,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_g {
@@ -942,8 +942,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_g {
@@ -952,8 +952,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_g {
@@ -962,8 +962,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_g {
@@ -972,8 +972,8 @@ body {
   position: absolute;
   left: 49.8%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -985,8 +985,8 @@ body {
   position: absolute;
   left: 58%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_h {
@@ -994,9 +994,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 58%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_h {
@@ -1005,8 +1005,8 @@ body {
   position: absolute;
   left: 58%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_h {
@@ -1015,8 +1015,8 @@ body {
   position: absolute;
   left: 58%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_h {
@@ -1025,8 +1025,8 @@ body {
   position: absolute;
   left: 58%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -1036,8 +1036,8 @@ body {
   position: absolute;
   left: 58%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_h {
@@ -1046,8 +1046,8 @@ body {
   position: absolute;
   left: 58%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_h {
@@ -1056,8 +1056,8 @@ body {
   position: absolute;
   left: 58%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_h {
@@ -1066,8 +1066,8 @@ body {
   position: absolute;
   left: 58%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_h {
@@ -1076,8 +1076,8 @@ body {
   position: absolute;
   left: 58%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_h {
@@ -1086,8 +1086,8 @@ body {
   position: absolute;
   left: 58%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_h {
@@ -1096,8 +1096,8 @@ body {
   position: absolute;
   left: 58%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -1109,8 +1109,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_i {
@@ -1118,9 +1118,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 66.3%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_i {
@@ -1129,8 +1129,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_i {
@@ -1139,8 +1139,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_i {
@@ -1149,8 +1149,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_i {
@@ -1159,8 +1159,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_i {
@@ -1169,8 +1169,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_i {
@@ -1179,8 +1179,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_i {
@@ -1189,8 +1189,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_i {
@@ -1199,8 +1199,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_i {
@@ -1209,8 +1209,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_i {
@@ -1219,8 +1219,8 @@ body {
   position: absolute;
   left: 66.3%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -1232,8 +1232,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_j {
@@ -1241,9 +1241,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 74.6%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_j {
@@ -1252,8 +1252,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_j {
@@ -1262,8 +1262,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_j {
@@ -1272,8 +1272,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_j {
@@ -1282,8 +1282,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_j {
@@ -1292,8 +1292,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_j {
@@ -1302,8 +1302,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_j {
@@ -1312,8 +1312,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_j {
@@ -1322,8 +1322,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_j {
@@ -1332,8 +1332,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_j {
@@ -1342,8 +1342,8 @@ body {
   position: absolute;
   left: 74.6%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -1355,8 +1355,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_k {
@@ -1364,9 +1364,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 82.9%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_k {
@@ -1375,8 +1375,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_k {
@@ -1385,8 +1385,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_k {
@@ -1395,8 +1395,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_k {
@@ -1405,8 +1405,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_k {
@@ -1415,8 +1415,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_k {
@@ -1425,8 +1425,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_k {
@@ -1435,8 +1435,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_k {
@@ -1445,8 +1445,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_k {
@@ -1455,8 +1455,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_k {
@@ -1465,8 +1465,8 @@ body {
   position: absolute;
   left: 82.9%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 
@@ -1478,8 +1478,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 0;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_II_l {
@@ -1487,9 +1487,9 @@ body {
   opacity: 0;
   position: absolute;
   left: 91.2%;
-  top: 8.3%;
-  width: 8.3%;
-  height: 8.3%;
+  top: 8.8%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_III_l {
@@ -1498,8 +1498,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 16.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IV_l {
@@ -1508,8 +1508,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 24.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_V_l {
@@ -1518,8 +1518,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 33.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VI_l {
@@ -1528,8 +1528,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 41.5%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VII_l {
@@ -1538,8 +1538,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 49.8%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_VIII_l {
@@ -1548,8 +1548,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 58%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_IX_l {
@@ -1558,8 +1558,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 66.3%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_X_l {
@@ -1568,8 +1568,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 74.6%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XI_l {
@@ -1578,8 +1578,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 82.9%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 #cell_XII_l {
@@ -1588,8 +1588,8 @@ body {
   position: absolute;
   left: 91.2%;
   top: 91.2%;
-  width: 8.3%;
-  height: 8.3%;
+  width: 8.8%;
+  height: 8.8%;
 }
 
 

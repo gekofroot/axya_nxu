@@ -127,7 +127,7 @@ ul > li {
   z-index: 1;
   border-width: 8px;
   border-style: solid;
-  border-image: linear-gradient(rgb(200, 200, 255), rgb(0, 0, 0)) 1;
+  border-image: linear-gradient(rgb(100, 100, 155), #060011, rgb(0, 0, 0)) 1;
   cursor: none;
 }
 

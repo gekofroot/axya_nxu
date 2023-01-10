@@ -13,6 +13,10 @@ body, html {
   font-family: monospace;
   width: 100%;
   height: 100%;
+  border: 40px solid rgb(30 0 30 / 100%);
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(165deg, rgb(44, 33, 51), rgb(200 200 255), black) 1;
 }
 
 #filter-container {
@@ -32,13 +36,11 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  margin: 20px;
   box-shadow: rgb( 0) 0px 0px 10px 6px;
-  border-width: 4px;
-  border-style: solid;
-  border-image: linear-gradient(165deg, rgb(44, 33, 51), rgb(200 200 255), black) 1;
   background: url("./../images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg") no-repeat center center fixed;
   background-size: cover;
+  border-radius: 60px;
+  border-radius: 100px;
 }
 
 #guav {
@@ -51,6 +53,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
+  border: solid  1px #664466;
 }
 
 #list-container {
@@ -75,7 +78,9 @@ ul {
   text-align: center;
   border-radius: 20px;
   border: 2px solid rgb(200 200 255);
+  border: 2px solid rgb(100 100 150 / 80%);
   z-index: 1;
+  padding: 2px;
 }
 
 a {
@@ -83,23 +88,28 @@ a {
   text-align: center;
   color: rgb(200 200 255);
   text-decoration: none;
-  padding: 4.4em 4em;
+  padding: 3.0em 2em;
   gap: 0.5em;
   cursor: none;
+  /*box-shadow: rgb(160 180 235 / 100%) 0px 0px 1px 6px inset;*/
+  border: 1px solid rgb(120 140 195 / 20%);
+  border-radius: 10px;
+  margin: 10px;
 }
 
 ul > li {
   border-width: 2px;
   border-style: solid;
   background: #000;
+  border-radius: 10px;
 }
 
 .ul-top {
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 10px 10px;
 }
 
 .ul-bottom {
-  border-radius: 0 0 20px 20px;
+  border-radius: 10px 10px 20px 20px;
 }
 
 /* hover */

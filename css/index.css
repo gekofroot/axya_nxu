@@ -51,8 +51,9 @@ body {
 .water {
   box-sizing: border-box;
   position: absolute;
-  background: url("./../images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg") no-repeat center center fixed;
-  background-size: cover;
+  /*background: url("./../images/mike-yukhtenko-wfh8dDlNFOk-unsplash.jpg") no-repeat center center fixed;
+  background-size: cover;*/
+  background: #000;
   border: 6px solid rgb(0 0 0 / 100%);
   z-index: 0;
   top: 70%;
@@ -85,7 +86,7 @@ body {
   height: 96%;
   /*background: linear-gradient(#ddddffff, #ffffffff 60%);
   */
-  background: linear-gradient(#fff0, #f0f 100%);
+  background: #000;
   box-shadow: rgb(200 200 255 / 100%) 0px 8px 10px 6px;
   border-radius: 10px;
   border: 1px groove rgb(200 200 250);

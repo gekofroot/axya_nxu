@@ -54,7 +54,8 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('./../images/photos/mandy-choi-_qZ0us4az20-unsplash.jpg') no-repeat center center fixed;
+  background: url('./../images/photos/img.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .search-field-shader {
